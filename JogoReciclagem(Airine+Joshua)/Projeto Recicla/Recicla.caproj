@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Recicla</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1yufxrknvjj16</unique-id>
+    <saved-with-version>25500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>360</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Plastico" sid="757785775663873">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="931606779127595">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591373718688098" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-verm-35x50.png">
+                        <collision-poly>
+                            <point x="0.26" y="0.628571" />
+                            <point x="0" y="0.514286" />
+                            <point x="0.24" y="0.342857" />
+                            <point x="0.5" y="0.114286" />
+                            <point x="0.94" y="0.085714" />
+                            <point x="1" y="0.514286" />
+                            <point x="0.92" y="0.885714" />
+                            <point x="0.5" y="0.885714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BAckground" sid="536873185055528">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\joshuakirtz\Downloads\background-ceu-100x100.png" />
+        </object-type>
+        <object-type name="Vidro" sid="696842057143565">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="845549338505053">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266552319809186" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-verd-35x50.png">
+                        <collision-poly>
+                            <point x="0.26" y="0.628571" />
+                            <point x="0" y="0.514286" />
+                            <point x="0.24" y="0.342857" />
+                            <point x="0.5" y="0.114286" />
+                            <point x="0.94" y="0.085714" />
+                            <point x="1" y="0.514286" />
+                            <point x="0.92" y="0.885714" />
+                            <point x="0.5" y="0.857143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Papel" sid="405446251289555">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444310583223557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-azul-35x50.png">
+                        <collision-poly>
+                            <point x="0.26" y="0.628571" />
+                            <point x="0.02" y="0.514286" />
+                            <point x="0.24" y="0.342857" />
+                            <point x="0.5" y="0.114286" />
+                            <point x="0.92" y="0.114286" />
+                            <point x="1" y="0.514286" />
+                            <point x="0.92" y="0.885714" />
+                            <point x="0.5" y="0.885714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Metal" sid="758964625267170">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921580334350003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-amar-35x50.png">
+                        <collision-poly>
+                            <point x="0.26" y="0.628571" />
+                            <point x="0" y="0.514286" />
+                            <point x="0.24" y="0.342857" />
+                            <point x="0.5" y="0.114286" />
+                            <point x="0.92" y="0.114286" />
+                            <point x="0.98" y="0.514286" />
+                            <point x="0.92" y="0.885714" />
+                            <point x="0.5" y="0.885714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lixo" sid="589432436480140">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373016188475139" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-pret-35x50.png">
+                        <collision-poly>
+                            <point x="0.26" y="0.628571" />
+                            <point x="0" y="0.514286" />
+                            <point x="0.24" y="0.342857" />
+                            <point x="0.5" y="0.114286" />
+                            <point x="0.92" y="0.114286" />
+                            <point x="1" y="0.514286" />
+                            <point x="0.92" y="0.885714" />
+                            <point x="0.5" y="0.885714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Caçamba_Plastico" sid="571141471512424">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Conta quantos plásticos foram adquiridos" name="Conta_Plastico" sid="944309166470488" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901498232706133" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-verm-80x68.png">
+                        <collision-poly>
+                            <point x="0.025" y="0.0294118" />
+                            <point x="0.5" y="0.0147059" />
+                            <point x="0.975" y="0.0294118" />
+                            <point x="0.9625" y="0.955882" />
+                            <point x="0.5" y="0.985294" />
+                            <point x="0.0375" y="0.955882" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Caçamba_Vidro" sid="827457316975025">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Conta quantos vidros foram adquiridos" name="ContaVidro" sid="867755943371619" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846866668222118" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-verd-80x68.png">
+                        <collision-poly>
+                            <point x="0.025" y="0.0294118" />
+                            <point x="0.5" y="0" />
+                            <point x="0.975" y="0.0294118" />
+                            <point x="0.9625" y="0.955882" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.955882" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Caçamba_Papel" sid="521362539501637">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Conta quantos papeis foram adquiridos" name="ContaPapel" sid="422613426816677" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291595026210654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-azul-80x68.png">
+                        <collision-poly>
+                            <point x="0.025" y="0.0294118" />
+                            <point x="0.5" y="0.0147059" />
+                            <point x="0.975" y="0.0294118" />
+                            <point x="0.95" y="0.941176" />
+                            <point x="0.5" y="0.985294" />
+                            <point x="0.0375" y="0.955882" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Caçamba_Metal" sid="571899158619117">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Conta quantos metais foram adquiridos" name="ContaMetal" sid="864229698802632" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226585856235652" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507463" original-source="C:\Users\joshuakirtz\Downloads\cacamba-amar-80x68.png">
+                        <collision-poly>
+                            <point x="0.025" y="0.0298507" />
+                            <point x="0.5" y="0" />
+                            <point x="0.975" y="0.0298507" />
+                            <point x="0.9625" y="0.955224" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.955224" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ContadorCaçamba" sid="520322450730042">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable comment="conta o lixo" name="ContadorLixo" sid="416873665428586" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type global="1" name="Sujeira" sid="147388143372811">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable comment="Conta a sujeira acumulada" name="SujeiraTotal" sid="316659175092740" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="SujeiraAcumulada" sid="201616162758907">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="Conta os incrementos de sujeira!" name="IncrementoSujeira" sid="178049125606158" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682780278770926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\joshuakirtz\Downloads\background-grama-100x35.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lost" sid="315652036965919">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Debug" sid="793111494087033">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="QuantiaPlastico" sid="962576509682694">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="QuantiaPapel" sid="120313689340428">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="QuantiaMetal" sid="693240478755225">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="QuantiaVidro" sid="680348065890347">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Concluir_Projetos" sid="158940452149906">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Swap" sid="672781600054338">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Sprite" sid="731305877218214">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757801585270405" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="727189628584445">
+            <plugin id="Mouse" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
+            <members>
+                <member>Caçamba_Metal</member>
+                <member>Caçamba_Papel</member>
+                <member>Caçamba_Plastico</member>
+                <member>Caçamba_Vidro</member>
+            </members>
+        </family>
+        <family name="Lixos" plugin-id="Sprite" sid="602575539372614">
+            <members>
+                <member>Lixo</member>
+                <member>Metal</member>
+                <member>Papel</member>
+                <member>Plastico</member>
+                <member>Vidro</member>
+            </members>
+            <behaviors>
+                <behavior-type name="DragDrop2" sid="550082761878395">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="431798039423271">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Quantias_Recursos" plugin-id="Text" sid="238282884652512">
+            <members>
+                <member>QuantiaMetal</member>
+                <member>QuantiaPapel</member>
+                <member>QuantiaPlastico</member>
+                <member>QuantiaVidro</member>
+            </members>
+        </family>
+        <family name="Projetos_Recicláveis" plugin-id="Sprite" sid="861235619657547">
+            <members>
+                <member>Sprite</member>
+            </members>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="173336158671137">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Coleta.xml</layout>
+        <layout>Projetos.xml</layout>
+        <layout>TrashOne.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>MainEvents.xml</event-sheet>
+        <event-sheet>Function.xml</event-sheet>
+        <event-sheet>Projetos_events.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Swap" uid="24" />
+        <global-instance type="Mouse" uid="25" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

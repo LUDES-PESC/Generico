@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Function</name>
+    <events>
+        <include>MainEvents</include>
+        <event-block sid="643082942225725">
+            <conditions>
+                <condition id="0" name="On function" sid="921566067996970" type="Swap">
+                    <param id="0" name="Name">&quot;Swap&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <variable constant="0" name="B" sid="722870787344316" static="0" type="number">0</variable>
+                <variable constant="0" name="A" sid="629486459505628" static="0" type="number">0</variable>
+                <event-block sid="296111810472484">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="803186651271350" type="Swap">
+                            <param id="0" name="Index">A</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="775647174401709" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="821872891333393">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="688899346360811" type="Swap">
+                            <param id="0" name="Index">A</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="286858134843522" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="527595668499380">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="210911808567985" type="Swap">
+                            <param id="0" name="Index">A</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="302543518814961" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="551617999714584">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="706863715058804" type="Swap">
+                            <param id="0" name="Index">A</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="117972764516262" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="895153917214537">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="435762228239195" type="Swap">
+                            <param id="0" name="Index">B</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="152870913331691" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="165495714875980">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="896630567074728" type="Swap">
+                            <param id="0" name="Index">B</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="848132831727302" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="415730721493602">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="957692658309656" type="Swap">
+                            <param id="0" name="Index">B</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="692282845720902" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="332551733510939">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="955184110763148" type="Swap">
+                            <param id="0" name="Index">B</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="127750299229777" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

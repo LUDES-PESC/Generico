@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Projetos_events</name>
+    <events>
+        <include>MainEvents</include>
+        <event-block sid="675711859726815">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="513372597419071" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="478325307830848" type="QuantiaMetal">
+                    <param id="0" name="Text">Metal_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="511955808738598" type="QuantiaPapel">
+                    <param id="0" name="Text">Papel_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="226960790296391" type="QuantiaPlastico">
+                    <param id="0" name="Text">Plástico_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="243129481207063" type="QuantiaVidro">
+                    <param id="0" name="Text">Vidro_Total</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="642509958181971">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="588511213551409" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Projetos_Recicláveis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

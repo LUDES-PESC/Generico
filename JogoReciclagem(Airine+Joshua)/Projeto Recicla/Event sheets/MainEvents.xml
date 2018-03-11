@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainEvents</name>
+    <events>
+        <variable comment="Conta lixo acumulado total" constant="0" name="Sujeira_Total" sid="973658674623222" static="0" type="number">0</variable>
+        <variable constant="0" name="Vidro_Total" sid="366798319634850" static="0" type="number">0</variable>
+        <variable constant="0" name="Papel_Total" sid="712205068161084" static="0" type="number">0</variable>
+        <variable constant="0" name="Plástico_Total" sid="308203890861501" static="0" type="number">0</variable>
+        <variable constant="0" name="Metal_Total" sid="461417908060033" static="0" type="number">0</variable>
+        <event-group description="" sid="896690555653205" title="Coleta">
+            <sub-events>
+                <event-block sid="292077807018125">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="126809461763969" type="Plastico">
+                            <param id="0" name="Object">Caçamba_Plastico</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="862302407628113" type="Plastico" />
+                        <action id="-11" name="Add to" sid="189293261771359" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="607595030284860" type="ContadorCaçamba">
+                            <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="275845306668878" type="Caçamba_Plastico">
+                            <param id="0" name="Instance variable">Conta_Plastico</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="786319601549569">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="948754840461234" type="Metal">
+                            <param id="0" name="Object">Caçamba_Metal</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="398728945482158" type="Metal" />
+                        <action id="-11" name="Add to" sid="888061591269863" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="470578174082889" type="ContadorCaçamba">
+                            <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="814842585883494" type="Caçamba_Metal">
+                            <param id="0" name="Instance variable">ContaMetal</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="246085916203299">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="401817001862070" type="Papel">
+                            <param id="0" name="Object">Caçamba_Papel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="669786102428517" type="Papel" />
+                        <action id="-11" name="Add to" sid="724587719119816" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="237609475250404" type="ContadorCaçamba">
+                            <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="663576647957882" type="Caçamba_Papel">
+                            <param id="0" name="Instance variable">ContaPapel</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="202499608646231">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="178807136584291" type="Vidro">
+                            <param id="0" name="Object">Caçamba_Vidro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="192422588977744" type="Vidro" />
+                        <action id="-11" name="Add to" sid="579855682516283" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="410737643429249" type="ContadorCaçamba">
+                            <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="794705147954200" type="Caçamba_Vidro">
+                            <param id="0" name="Instance variable">ContaVidro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="559067028427350">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="861954029815000" type="Lixo">
+                            <param id="0" name="Object">Caçambas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="510279740168479" type="Lixo" />
+                        <action id="-11" name="Add to" sid="231382159960582" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="181465109817959" type="ContadorCaçamba">
+                            <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="639208217025511">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="128819423313235" type="Lixos">
+                            <param id="0" name="Object">SujeiraAcumulada</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="335748534553194" type="Lixos" />
+                        <action id="-11" name="Add to" sid="958366438734949" type="SujeiraAcumulada">
+                            <param id="0" name="Instance variable">IncrementoSujeira</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-11" name="Add to" sid="524765970945911" type="Sujeira">
+                            <param id="0" name="Instance variable">SujeiraTotal</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="835176339040083" type="Debug">
+                            <param id="0" name="Text">&quot;Sujeira: &quot; &amp;Sujeira.SujeiraTotal </param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="115321727538610">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="458973383218357" type="System">
+                            <param id="0" name="Interval (seconds)">3</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="451147894935611" type="System">
+                            <param id="0" name="First value">round(random(0,1))</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="528570142146489" type="System">
+                            <param id="0" name="Object to create">Lixos</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">random(70,300)</param>
+                            <param id="3" name="Y">-20</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="651669085254539" type="Lixos">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action behavior="Bullet" id="1" name="Set acceleration" sid="905219093773679" type="Lixos">
+                            <param id="0" name="Acceleration">3</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="553045318225450" type="Lixos">
+                            <param id="0" name="Speed">200</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="219168496839771">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="310434066220114" type="System">
+                            <param id="0" name="Interval (seconds)">2</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="239580728366573" type="System">
+                            <param id="0" name="First value">round(random(0,1))</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="310896231643139" type="System">
+                            <param id="0" name="Object to create">Lixos</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">random(70,300)</param>
+                            <param id="3" name="Y">-20</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="120091542504572" type="Lixos">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action behavior="Bullet" id="1" name="Set acceleration" sid="804183720084169" type="Lixos">
+                            <param id="0" name="Acceleration">3</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="740623140693562" type="Lixos">
+                            <param id="0" name="Speed">200</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="950572908658805">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="436596008902837" type="SujeiraAcumulada">
+                            <param id="0" name="Instance variable">IncrementoSujeira</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="195795955288010" type="SujeiraAcumulada">
+                            <param id="0" name="Y">SujeiraAcumulada.Y-20</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="567501458243758" type="SujeiraAcumulada">
+                            <param id="0" name="Instance variable">IncrementoSujeira</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="357953735272544">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="696101651442905" type="ContadorCaçamba">
+                            <param id="0" name="Instance variable">ContadorLixo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="165734706100323" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">Caçamba_Metal.ContaMetal</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="808318152057233" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">Caçamba_Papel.ContaPapel</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="724475752601987" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">Caçamba_Plastico.Conta_Plastico</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="647818559773204" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">Caçamba_Vidro.ContaVidro</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="263949960807645" type="System">
+                            <param id="0" name="Variable">Sujeira_Total</param>
+                            <param id="1" name="Value">Sujeira.SujeiraTotal</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="618078471170570" type="System">
+                            <param id="0" name="Group name">&quot;Projetos&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="443249902056148" type="System">
+                            <param id="0" name="Layout">&quot;Projetos&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="849317971531920" type="System">
+                            <param id="0" name="Group name">&quot;Coleta&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
