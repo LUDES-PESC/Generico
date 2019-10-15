@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="Logo FInal Cores Convertido com Inkscape.svg">
   <defs
      id="defs4">
@@ -59,16 +59,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-152.14286"
+     inkscape:cx="-579.28572"
      inkscape:cy="520"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="690"
+     inkscape:window-height="405"
+     inkscape:window-x="1481"
+     inkscape:window-y="180"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -77,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -132,13 +132,14 @@
           </g>
           <text
              id="text3465"
-             style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.89550018px;font-family:Circo;-inkscape-font-specification:Circo;writing-mode:lr-tb;fill:#3474a1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Circo;-inkscape-font-specification:Circo;writing-mode:lr-tb;fill:#3474a1;fill-opacity:1;fill-rule:nonzero;stroke:none"
              transform="matrix(1,0,0,-1,67.9854,29.3291)">
             <tspan
                id="tspan3467"
                sodipodi:role="line"
                y="0"
-               x="0 54.486477 120.84389 189.67285 246.14406">LUDES</tspan>
+               x="0 54.486477 120.84389 189.67285 246.14406"
+               style="font-size:74.89550018px;line-height:1.25">LUDES</tspan>
           </text>
           <g
              transform="translate(4.0273,80.293)"
@@ -151,13 +152,14 @@
           </g>
           <text
              id="text3473"
-             style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.47559929px;font-family:Circo;-inkscape-font-specification:Circo;writing-mode:lr-tb;fill:#3474a1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Circo;-inkscape-font-specification:Circo;writing-mode:lr-tb;fill:#3474a1;fill-opacity:1;fill-rule:nonzero;stroke:none"
              transform="matrix(1,0,0,-1,0,8.293)">
             <tspan
                id="tspan3475"
                sodipodi:role="line"
                y="0"
-               x="0 12.713499 25.627968 38.717194 51.561756 55.825806 68.670372 82.074158 87.194504 100.19635 106.52252 115.19041 128.36702 141.36887 154.77264 167.61722 180.61906 194.2675 207.26935 216.81104 221.93138 234.93323 243.60112 256.44568 265.11359 280.47464 285.595 307.78027 320.69473 324.95877 337.96063 350.70035 363.70218">Ludologia, Engenharia e Simulacao</tspan>
+               x="0 12.713499 25.627968 38.717194 51.561756 55.825806 68.670372 82.074158 87.194504 100.19635 106.52252 115.19041 128.36702 141.36887 154.77264 167.61722 180.61906 194.2675 207.26935 216.81104 221.93138 234.93323 243.60112 256.44568 265.11359 280.47464 285.595 307.78027 320.69473 324.95877 337.96063 350.70035 363.70218"
+               style="font-size:17.47559929px;line-height:1.25">Ludologia, Engenharia e Simulacao</tspan>
           </text>
         </g>
       </g>
